@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="title"><img src="/img/generatedtext.png"></div>
+            <div class="title"><img class="titleImage" src="/img/generatedtext.png"></div>
             <div class="mainContainer">
                 <div class="inputContainer">
                     <input class="inputText" type="text" id="inputText" placeholder="Enter the text you want to sarcastify">

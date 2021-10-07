@@ -31,7 +31,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 50px;
     margin-bottom: 5px;
-    overflow: auto;
 }
 
 .outputText {
@@ -70,6 +69,12 @@ body {
     font-size: 15pt;
     margin-bottom: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
 }
 
 .btnClear {
@@ -83,6 +88,12 @@ body {
     font-size: 15pt;
     margin-bottom: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
 }
 
 .btnSubmit:hover {
@@ -103,4 +114,97 @@ body {
 .btnClear:not(:hover) {
     background-color: #89ff57;
     transition: background-color .75s;
+}
+
+@media screen and (max-width: 1060px) {
+    .mainContainer{
+        width: 90%;
+    }
+    .inputText {
+        width: 95%;
+    }
+    .outputText {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .title {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .container {
+        padding-top: 20%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .btnSubmit {
+        width: 85%;
+    }
+    .btnClear {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mainContainer {
+        width: 100%;
+    }
+    .mainContainer {
+        padding: 40px 0px 40px 0px;
+    }
+    .container {
+        padding-top: 35%;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .inputText {
+        width: 100%;
+        font-size: 12pt;
+        font-weight: bold;
+    }
+    .outputText {
+        width: 100%;
+        font-size: 12pt;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .container {
+        padding-top: 45%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .btnSubmit {
+        width: 100%;
+    }
+    .btnClear {
+        width: 100%;
+    }
+    .titleImage{
+        width: 80%;
+    }
+    .mainContainer {
+        padding: 25px 0px 25px 0px;
+    }
+    .inputText {
+        font-weight: normal;
+        height: 30px;
+    }
+    .outputText {
+        font-weight: normal;
+    }
+    body {
+        background-size: 750%;
+    }
+    .container {
+        padding-top: 65%;
+    }
+    .buttonInlineContainer {
+        padding-left: 5px;
+    }
 }
